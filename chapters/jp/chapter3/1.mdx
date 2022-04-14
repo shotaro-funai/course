@@ -1,0 +1,21 @@
+<FrameworkSwitchCourse {fw} />
+
+# はじめに
+
+[第2章](/course/chapter2)では、トークナイザー(tokenizer)と事前学習モデルを使って予測する方法を調べました。しかし、あなたのデータセットに合わせて事前学習モデルを微調整(fine-tune)したい場合はどうすれば良いでしょうか？それがこの章のトピックです。あなたは以下のことを学べるでしょう。
+
+{#if fw === 'pt'}
+* Hubから大きなデータセットを用意する方法
+* モデルを微調整するための高レベルなTrainerというAPIを使う方法
+* 訓練ループHow to use a custom training loop
+* How to leverage the 🤗 Accelerate library to easily run that custom training loop on any distributed setup
+
+{:else}
+* How to prepare a large dataset from the Hub
+* How to use Keras to fine-tune a model
+* How to use Keras to get predictions
+* How to use a custom metric
+
+{/if}
+
+あなたの訓練チェックポイントをHugging Face Hubにアップロードするには、huggingface.coのアカウントが必要です。[アカウントを作成する](https://huggingface.co/join)
